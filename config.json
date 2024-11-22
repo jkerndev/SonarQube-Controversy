@@ -1,0 +1,149 @@
+{
+    "data": {
+        "SonarQube": {
+            "rules": "https://rules.sonarsource.com/",
+            "languages": [
+                {
+                    "directory": "abap",
+                    "alias": "ABAP"
+                },
+                {
+                    "directory": "apex",
+                    "alias": "Apex"
+                },
+                {
+                    "directory": "azureresourcemanager",
+                    "alias": "AzureResourceManager"
+                },
+                {
+                    "directory": "c",
+                    "alias": "C"
+                },
+                {
+                    "directory": "csharp",
+                    "alias": "C#"
+                },
+                {
+                    "directory": "cpp",
+                    "alias": "C++"
+                },
+                {
+                    "directory": "cloudformation",
+                    "alias": "CloudFormation"
+                },
+                {
+                    "directory": "cobol",
+                    "alias": "COBOL"
+                },
+                {
+                    "directory": "css",
+                    "alias": "CSS"
+                },
+                {
+                    "directory": "dart",
+                    "alias": "Dart"
+                },
+                {
+                    "directory": "docker",
+                    "alias": "Docker"
+                },
+                {
+                    "directory": "flex",
+                    "alias": "Flex"
+                },
+                {
+                    "directory": "go",
+                    "alias": "Go"
+                },
+                {
+                    "directory": "html",
+                    "alias": "HTML"
+                },
+                {
+                    "directory": "java",
+                    "alias": "Java"
+                },
+                {
+                    "directory": "javascript",
+                    "alias": "JavaScript"
+                },
+                {
+                    "directory": "jcl",
+                    "alias": "JCL"
+                },
+                {
+                    "directory": "kotlin",
+                    "alias": "Kotlin"
+                },
+                {
+                    "directory": "kubernetes",
+                    "alias": "Kubernetes"
+                },
+                {
+                    "directory": "objective-c",
+                    "alias": "Objective C"
+                },
+                {
+                    "directory": "php",
+                    "alias": "PHP"
+                },
+                {
+                    "directory": "pli",
+                    "alias": "PL/I"
+                },
+                {
+                    "directory": "plsql",
+                    "alias": "PL/SQL"
+                },
+                {
+                    "directory": "python",
+                    "alias": "Python"
+                },
+                {
+                    "directory": "rpg",
+                    "alias": "RPG"
+                },
+                {
+                    "directory": "ruby",
+                    "alias": "Ruby"
+                },
+                {
+                    "directory": "scala",
+                    "alias": "Scala"
+                },
+                {
+                    "directory": "swift",
+                    "alias": "Swift"
+                },
+                {
+                    "directory": "terraform",
+                    "alias": "Terraform"
+                },
+                {
+                    "directory": "text",
+                    "alias": "Text"
+                },
+                {
+                    "directory": "typescript",
+                    "alias": "TypeScript"
+                },
+                {
+                    "directory": "tsql",
+                    "alias": "T-SQL"
+                },
+                {
+                    "directory": "vbnet",
+                    "alias": "VB.NET"
+                },
+                {
+                    "directory": "vb6",
+                    "alias": "VB6"
+                },
+                {
+                    "directory": "xml",
+                    "alias": "XML"
+                }
+            ]
+        }
+    }
+}

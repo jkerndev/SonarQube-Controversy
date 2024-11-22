@@ -1,0 +1,29 @@
+--- Listed in order of dependencies ----
+
+1 --
+
+For running the rule-scraping spider:
+scrapy runspider .\rulesspider.py
+scrapy runspider .\rulesspider.py -L ERROR -o rules.json 2> rules_error.log
+
+For running the sonar community posts scraping spider:
+scrapy runspider .\sonarcommunityspider.py
+scrapy runspider .\sonarcommunityspider.py -L ERROR -o posts.json 2> posts_error.log
+
+2 --
+
+For correlating and calculating the complexity scores:
+python process_data.py
+
+This will output posts-cleaned.json, the dataset to be used for training the model
+
+3 --
+
+For creating the machine-learning model:
+
+python model.py
+
+
+-- TESTING WEBSCRAPER --
+
+scrapy runspider .\test_spider.py -o test_community.json 2> test.log
